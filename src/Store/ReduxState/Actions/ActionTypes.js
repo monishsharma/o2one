@@ -1,0 +1,3 @@
+export const INPUT_ONCHANGE = 'INPUT_ONCHANGE';
+export const ADD_EXTRA_HOBBIES = 'ADD_EXTRA_HOBBIES';
+export const SAVE_USER_DATA = 'SAVE_USER_DATA';
