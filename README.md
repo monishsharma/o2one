@@ -24,6 +24,7 @@ Add these lines of code
               localIdentName: "[name]__[local]___[hash:base64:5]",
           },														
       }
+  }
  ```
 
 ### `yarn start`
