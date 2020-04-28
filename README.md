@@ -4,6 +4,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## css module 
+Go to the directory
+node_modules\react-scripts\config\webpack.config.js
+in place of this 
+ {
+        loader: require.resolve('css-loader'),
+        options: cssOptions,
+ },
+Add these lines of code
+ {
+        loader: require.resolve('css-loader'),
+        options: {
+          modules: {
+              localIdentName: "[name]__[local]___[hash:base64:5]",
+          },														
+      }
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
